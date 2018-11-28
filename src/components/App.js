@@ -7,7 +7,6 @@ import {User} from './User';
 
 class App extends React.Component {
   render() {
-    console.log(this.props)
     const { isFetching, startFetching, data, error} = this.props;
     return(
       <div className="app">
