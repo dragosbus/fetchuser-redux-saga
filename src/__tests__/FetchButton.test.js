@@ -5,10 +5,6 @@ import {FetchButton} from '../components/FetchButton';
 
 Enzyme.configure({ adapter: new Adapter() });
 
-const props = {
-  isFetching: false
-};
-
 describe('<FetchButton/>', () => {
   let wrapper;
   it('should have `get user` text', () => {
